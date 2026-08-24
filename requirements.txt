@@ -1,8 +1,9 @@
 prettytable~=2.5.0 # BSD
+colorlog # MIT
+PyYAML # MIT
 scikit-learn
 numpy
 pandas
 tqdm
 matplotlib
 onnx
-colorlog
