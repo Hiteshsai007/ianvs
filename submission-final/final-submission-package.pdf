@@ -1,0 +1,216 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3577 >>
+stream
+BT
+/F1 8.5 Tf
+48 752 Td
+10.5 TL
+( Final submission package - Discussion 875) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(Candidate: Hiteshsai007  ) Tj
+0 -10.5 Td
+(Project: CNCF KubeEdge Ianvs - Comprehensive Example Restoration, Phase IV  ) Tj
+0 -10.5 Td
+(Live Discussion: https://github.com/kubeedge/ianvs/discussions/875  ) Tj
+0 -10.5 Td
+(Live snapshot fetched: 2026-08-25  ) Tj
+0 -10.5 Td
+(Live Discussion updated: 2026-08-25T08:05:12Z) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+( Submission status) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(The live Discussion contains the complete Task 1-4 and Bonus package. Its current status is Written) Tj
+0 -10.5 Td
+(  analysis and execution video attached. The execution video is linked in the live Task 2 comment:) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(Execution video: https://youtu.be/VJqXbzr75cs) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(The video is an evidence walkthrough, not a claim that a heavyweight production benchmark completed.) Tj
+0 -10.5 Td
+(  YouTube playback was not independently testable from the sandbox; the candidate should confirm the URL) Tj
+0 -10.5 Td
+(  in an incognito/private browser window before sending the email.) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+( Live task index) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(| Section | Live comment | Status |) Tj
+0 -10.5 Td
+(|---|---|---|) Tj
+0 -10.5 Td
+(| Task 1 - Root Problem Analysis | https://github.com/kubeedge/ianvs/discussions/875discussioncomment-181) Tj
+0 -10.5 Td
+(  21621 | Complete |) Tj
+0 -10.5 Td
+(| Task 2 - Multi-PR Code Review | https://github.com/kubeedge/ianvs/discussions/875discussioncomment-1812) Tj
+0 -10.5 Td
+(  1621 | Complete; execution video and PR 524 output attached |) Tj
+0 -10.5 Td
+(| Task 3 - Repair Boundary Analysis | https://github.com/kubeedge/ianvs/discussions/875discussioncomment-) Tj
+0 -10.5 Td
+(  18121643 | Complete |) Tj
+0 -10.5 Td
+(| Task 4 - Restoration Path Design | https://github.com/kubeedge/ianvs/discussions/875discussioncomment-1) Tj
+0 -10.5 Td
+(  8121695 | Complete |) Tj
+0 -10.5 Td
+(| Bonus - Supplementary Review Coverage |) Tj
+0 -10.5 Td
+(  https://github.com/kubeedge/ianvs/discussions/875discussioncomment-18121701 | Complete; four) Tj
+0 -10.5 Td
+(  additional reviews |) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+( Rubric-aligned scope) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(- Root problem: implicit, timing-sensitive device-selection behavior across Ianvs Core and Example) Tj
+0 -10.5 Td
+(  implementations.) Tj
+0 -10.5 Td
+(- Task 1 issues: 765, 535, and 523; the analysis distinguishes Core ordering/default behavior from) Tj
+0 -10.5 Td
+(  Example-local CUDA/MPS portability failures.) Tj
+0 -10.5 Td
+(- Task 2 mandatory PRs: 767 \(critical Core PR\), 536, and 524. PR 764 is retained as supplementary) Tj
+0 -10.5 Td
+(  conflict/control evidence.) Tj
+0 -10.5 Td
+(- Task 2 execution evidence: PR 524 test command recorded 41 passed in 1.23s, with Python 3.11.2,) Tj
+0 -10.5 Td
+(  PyTorch 2.13.0+cu130, and pytest 9.1.1. The production MOT17 benchmark, CUDA/MPS hardware, and full) Tj
+0 -10.5 Td
+(  heavyweight examples are explicitly outside the executed boundary.) Tj
+0 -10.5 Td
+(- Task 3: separates Core visibility ordering, shared semantics, Example-local migration, and CI guard) Tj
+0 -10.5 Td
+(  responsibilities; it does not claim unexecuted gates passed.) Tj
+0 -10.5 Td
+(- Task 4: gives staged migration, conflict handling, production-test gaps, verification gates, and) Tj
+0 -10.5 Td
+(  rollback boundaries.) Tj
+0 -10.5 Td
+(- Bonus: preserves the four-review section and its PR 802 reviewer-impact chain; it is not removed or) Tj
+0 -10.5 Td
+(  replaced.) Tj
+0 -10.5 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2130 >>
+stream
+BT
+/F1 8.5 Tf
+48 752 Td
+10.5 TL
+() Tj
+0 -10.5 Td
+( Permanent target-specific comments) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/issues/523issuecomment-5386498840) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/issues/535issuecomment-5384537091) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/issues/765issuecomment-5384535569) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/524issuecomment-5386501544) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/536issuecomment-5386505503) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/764issuecomment-5384563777) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/767issuecomment-5384561099) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/775issuecomment-5386643381) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/802issuecomment-5386647117) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/802issuecomment-5387002670) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/802issuecomment-5387138574) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/802issuecomment-5387170752) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/802issuecomment-5387198216) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/808issuecomment-5386552612) Tj
+0 -10.5 Td
+(- https://github.com/kubeedge/ianvs/pull/827issuecomment-5386637841) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+( Verification boundary) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(Executed evidence is limited to the real Core constructor/control-flow probes on the pinned main and PR) Tj
+0 -10.5 Td
+(  767 revisions, plus the PR 524 test command. Full Government RAG and MOT17 benchmarks, external) Tj
+0 -10.5 Td
+(  datasets/models/API credentials, and real CUDA/MPS hardware behavior were not executed and are not) Tj
+0 -10.5 Td
+(  described as passed.) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+( Source snapshot) Tj
+0 -10.5 Td
+() Tj
+0 -10.5 Td
+(The complete current live Discussion snapshot is saved locally as current-875-live.md -) Tj
+0 -10.5 Td
+(  current-875-live.md. It is the source of truth for this package; stale drafts are not used.) Tj
+0 -10.5 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000003882 00000 n 
+0000004008 00000 n 
+0000006190 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+6260
+%%EOF
