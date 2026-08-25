@@ -2,7 +2,7 @@
 
 ## Qualification and uniqueness
 
-This Bonus contains **four additional reviews**. All four PRs are open, non-draft, within the permitted PR range, not authored by me, and distinct from my mandatory Task 2 set (#767/#536/#524). I also excluded the duplicated targets previously covered by Discussion #864. Each finding below was cross-posted to its target PR and is backed by executed evidence with an explicit verification boundary.
+This Bonus contains **seven additional reviews**: the four-review section below plus the three appended reviews in the addendum. All seven PRs are open, non-draft, within the permitted PR range, not authored by me, and distinct from my mandatory Task 2 set (#767/#536/#524). I also excluded the duplicated targets previously covered by Discussion #864. Each finding below was cross-posted to its target PR and is backed by executed evidence with an explicit verification boundary.
 
 | PR | Reviewed commit | Decision | Unique finding | Permanent target comment |
 |---|---|---|---|---|

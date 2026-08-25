@@ -4,7 +4,7 @@
 **Project:** CNCF KubeEdge Ianvs — Comprehensive Example Restoration, Phase IV  
 **Live Discussion:** https://github.com/kubeedge/ianvs/discussions/875  
 **Live snapshot fetched:** 2026-08-25  
-**Live Discussion updated:** 2026-08-25T08:05:12Z
+**Live Discussion last verified:** 2026-08-25T11:51:24Z (Bonus comment edit)
 
 ## Submission status
 
@@ -19,10 +19,10 @@ The video is an evidence walkthrough, not a claim that a heavyweight production 
 | Section | Live comment | Status |
 |---|---|---|
 | Task 1 — Root Problem Analysis | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121621 | Complete |
-| Task 2 — Multi-PR Code Review | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121621 | Complete; execution video and PR #524 output attached |
-| Task 3 — Repair Boundary Analysis | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121643 | Complete |
+| Task 2 — Multi-PR Code Review | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121643 | Complete; execution video and PR #524 output attached |
+| Task 3 — Repair Boundary Analysis | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121677 | Complete |
 | Task 4 — Restoration Path Design | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121695 | Complete |
-| Bonus — Supplementary Review Coverage | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121701 | Complete; four additional reviews |
+| Bonus — Supplementary Review Coverage | https://github.com/kubeedge/ianvs/discussions/875#discussioncomment-18121701 | Complete; seven additional reviews (four preserved plus three addendum reviews) |
 
 ## Rubric-aligned scope
 
@@ -32,7 +32,7 @@ The video is an evidence walkthrough, not a claim that a heavyweight production 
 - **Task 2 execution evidence:** PR #524 test command recorded **41 passed in 1.23s**, with Python 3.11.2, PyTorch 2.13.0+cu130, and pytest 9.1.1. The production MOT17 benchmark, CUDA/MPS hardware, and full heavyweight examples are explicitly outside the executed boundary.
 - **Task 3:** separates Core visibility ordering, shared semantics, Example-local migration, and CI guard responsibilities; it does not claim unexecuted gates passed.
 - **Task 4:** gives staged migration, conflict handling, production-test gaps, verification gates, and rollback boundaries.
-- **Bonus:** preserves the four-review section and its PR #802 reviewer-impact chain; it is not removed or replaced.
+- **Bonus:** preserves the original four-review section and its PR #802 reviewer-impact chain, with three additional distinct reviews for PRs #773, #734, and #701 appended in the same edited comment.
 
 ## Permanent target-specific comments
 
@@ -51,6 +51,9 @@ The video is an evidence walkthrough, not a claim that a heavyweight production 
 - https://github.com/kubeedge/ianvs/pull/802#issuecomment-5387198216
 - https://github.com/kubeedge/ianvs/pull/808#issuecomment-5386552612
 - https://github.com/kubeedge/ianvs/pull/827#issuecomment-5386637841
+- https://github.com/kubeedge/ianvs/pull/773#issuecomment-5409809791
+- https://github.com/kubeedge/ianvs/pull/734#issuecomment-5409817163
+- https://github.com/kubeedge/ianvs/pull/701#issuecomment-5409823176
 
 ## Verification boundary
 
