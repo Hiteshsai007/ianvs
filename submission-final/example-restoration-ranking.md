@@ -42,8 +42,8 @@ A video is not a separate rubric category. Where present, it strengthens the rel
 | 1 | [#924](https://github.com/kubeedge/ianvs/discussions/924) — akshhkaushik | 29 | 29 | 19 | 19 | 15 | **111** | High-quality full Task 1–4 package: executed Core/RoboDK lifetime evidence, mandatory PR reviews with merge/regression analysis, explicit ownership boundary, seven verification gates, and eleven distinct Bonus reviews plus a cross-target finding. |
 | 2 | [#873](https://github.com/kubeedge/ianvs/discussions/873) — AdityaKumarSethia | 29 | 29 | 19 | 18 | 13 | **108** | Very strong executed unguarded-division analysis, merge-conflict reasoning, five mandatory PR reviews, seven additional reviews, and extensive target-specific comment evidence. |
 | — | [#864](https://github.com/kubeedge/ianvs/discussions/864) — akshita317 | — | — | — | — | — | **Excluded** | Retained in the 41-thread census only; no substantive #864 content is used in this comparative score or in another candidate's assessment. |
-| 3 | [#921](https://github.com/kubeedge/ianvs/discussions/921) — MukandKrishna | 29 | 29 | 19 | 19 | 10 | **106** | Strong full package: four executed identity/schema reproductions, four detailed mandatory PR reviews, two maintainer-impact loops with 4- and 6-test focused reruns, explicit shared-contract boundary, and four Bonus reviews. Full model/training workflows remain outside its stated boundary. |
-| 4 | [#875](https://github.com/kubeedge/ianvs/discussions/875) — Hiteshsai007 | 28 | 29 | 18 | 18 | 12 | **105** | Complete dual-channel submission; strong device-selection boundary, pinned PR heads, executed PR #767/#524 evidence, authentic `41 passed in 1.23s` video, and seven distinct additional reviews with permanent target links. |
+| 3 | [#875](https://github.com/kubeedge/ianvs/discussions/875) — Hiteshsai007 | 29 | 29 | 18 | 19 | 12 | **107** | Complete dual-channel submission with pinned heads, executed Core/#767 evidence, new production-path smoke tests for #524 and #536, an executed #767/#536/#524/#764 merge matrix, G0 red/green contract evidence, authentic `41 passed in 1.23s` video, and seven distinct additional reviews. |
+| 4 | [#921](https://github.com/kubeedge/ianvs/discussions/921) — MukandKrishna | 29 | 29 | 19 | 19 | 10 | **106** | Strong full package: four executed identity/schema reproductions, four detailed mandatory PR reviews, two maintainer-impact loops with 4- and 6-test focused reruns, explicit shared-contract boundary, and four Bonus reviews. Full model/training workflows remain outside its stated boundary. |
 | 5 | [#869](https://github.com/kubeedge/ianvs/discussions/869) — whozahm3d | 28 | 29 | 18 | 18 | 5 | **98** | Strong incremental-learning/dependency/path synthesis, novel cross-PR type-contract and conflict analysis, direct target comments, and documented upstream acknowledgment/update. Two additional reviews limit quantity bonus. |
 | 6 | [#904](https://github.com/kubeedge/ianvs/discussions/904) — zjr060424-lab | 28 | 28 | 19 | 18 | 4 | **97** | High-quality process-global runtime-context analysis, controlled execution, six images, six target-specific technical comments, and careful verification limits; no qualifying Bonus review set. |
 | 7 | [#900](https://github.com/kubeedge/ianvs/discussions/900) — sheikhayaan | 27 | 22 | 17 | 17 | 12 | **95** | Technically very dense path-resolution/validator analysis with four mandatory and seven additional reviews. The public Discussion does not link most target-specific comments; direct matching is therefore incomplete and the estimate is medium confidence. |
@@ -85,7 +85,7 @@ A video is not a separate rubric category. Where present, it strengthens the rel
 
 | Discussion | Current comparative result | Why it matters to the expanded census |
 |---|---:|---|
-| [#921](https://github.com/kubeedge/ianvs/discussions/921) | **106/115, rank 3** | Full Task 1–4 package with executed identity/schema evidence, mandatory review and maintainer-impact loops, plus four Bonus reviews. |
+| [#921](https://github.com/kubeedge/ianvs/discussions/921) | **106/115, rank 4** | Full Task 1–4 package with executed identity/schema evidence, mandatory review and maintainer-impact loops, plus four Bonus reviews. |
 | [#922](https://github.com/kubeedge/ianvs/discussions/922) | **22/115, rank 27** | Substantive executed Task 1 dependency-boundary analysis; Tasks 2–4 and Bonus are absent. |
 | [#923](https://github.com/kubeedge/ianvs/discussions/923) | **23/115, rank 26** | Substantive executed Task 1 vendored-RFNet analysis across five Examples and four PRs; Tasks 2–4 and Bonus are absent. |
 | [#924](https://github.com/kubeedge/ianvs/discussions/924) | **111/115, rank 1** | Strongest new full package: executed ownership/lifetime evidence, mandatory PR integration analysis, seven gates, eleven Bonus reviews, and a cross-target finding. |
@@ -97,13 +97,13 @@ A video is not a separate rubric category. Where present, it strengthens the rel
 
 1. **#924** — strongest current combination of full task completeness, executed lifetime/ownership evidence, mandatory-PR integration analysis, fresh verification gates, and eleven high-coverage Bonus reviews.
 2. **#873** — strongest repeated-pattern/root-cause analysis, real method and merge-conflict execution, five mandatory PR reviews, seven Bonus reviews, and extensive target-specific evidence.
-3. **#921** — unusually strong identity-contract analysis with direct reproductions, two verified maintainer-impact loops, complete Tasks 1–4, and four qualifying Bonus reviews.
-4. **#875** — strong device-selection boundary, pinned heads, executed Core/#767 and #524 evidence, authentic execution video, and seven distinct Bonus reviews with permanent links.
+3. **#875** — now strengthened by production-path smoke tests for #524/#536, the exact merge matrix, and G0 red/green evidence; it remains one point below #873 and above #921 on this comparative estimate.
+4. **#921** — unusually strong identity-contract analysis with direct reproductions, two verified maintainer-impact loops, complete Tasks 1–4, and four qualifying Bonus reviews.
 
 ### High-quality but confidence-limited group
 
 - **#869**, **#904**, and **#900** have strong technical depth; #900's and #868/#862's target-link coverage is less complete or less directly matched in the central Discussion.
-- **#875** remains four estimated points below #924 and three below #873. Its Bonus quantity is now in the same 7–9 tier as #873; further improvement must come from new production-path or cross-stage execution evidence, not additional review count.
+- **#875** is now estimated at 107 after the new production-path probes, merge matrix, and G0 evidence; it remains four points below #924 and one below #873. Its Bonus quantity is already in the same 7–9 tier as #873, so further improvement should come from production integration or cross-stage execution evidence, not additional review count.
 - **#864** is not compared or scored here. It is retained only to keep the current 41-thread census complete.
 
 ### Main reasons for lower placement
@@ -118,4 +118,4 @@ A video is not a separate rubric category. Where present, it strengthens the rel
 
 The #875 estimate is deliberately not treated as an official grade. Its strongest differentiators are complete Task 1–4/Bonus structure, verified dual-channel target comments, explicit execution boundaries, executed PR #767 evidence, authentic PR #524 `41 passed in 1.23s` evidence, and the linked execution video. The video is an evidence-strength factor within Task 2; it is not a separate Bonus category.
 
-The seven Bonus reviews move #875 into the 7–9 quantity band (+8), producing an estimated **105/115** with the existing quality/impact estimate held constant. That remains below #873's estimated 108 and #924's estimated 111. The defensible path above those estimates is fresh, bounded production-path or cross-stage execution evidence, not additional shallow or duplicated reviews.
+The seven Bonus reviews place #875 in the 7–9 quantity band (+8). The new bounded production probes for #524 and #536, the executed merge matrix, and the G0 red/green contract gate strengthen Task 1 and Task 4 evidence, moving the comparative estimate to **107/115**. That remains below #873's estimated 108 and #924's estimated 111, while placing #875 above #921's estimated 106. The remaining path above #873 is fresh, bounded production integration or cross-stage execution evidence, not additional shallow or duplicated reviews.
