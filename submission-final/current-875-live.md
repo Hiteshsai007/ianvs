@@ -3,7 +3,7 @@
 Fetched from GitHub on **2026-08-25**. This file is a local snapshot of the live Discussion used for the final package.
 
 - URL: https://github.com/kubeedge/ianvs/discussions/875
-- Updated at: 2026-08-25T11:51:24Z (Bonus comment edit)
+- Updated at: 2026-08-25T12:05:59Z (Bonus comment edit)
 - Author: Hiteshsai007
 - Comment count: 5
 - Execution video: https://youtu.be/VJqXbzr75cs
@@ -624,7 +624,7 @@ The dependency graph's explicit claim that B2 and B6 do **not** need to wait for
 
 ## Qualification and uniqueness
 
-This Bonus contains **four additional reviews**. All four PRs are open, non-draft, within the permitted PR range, not authored by me, and distinct from my mandatory Task 2 set (#767/#536/#524). I also excluded the duplicated targets previously covered by Discussion #864. Each finding below was cross-posted to its target PR and is backed by executed evidence with an explicit verification boundary.
+This Bonus contains seven additional reviews: the four-review section below plus the three appended reviews in the addendum. All seven PRs are open, non-draft, within the permitted PR range, not authored by me, and distinct from my mandatory Task 2 set (#767/#536/#524). I also excluded the duplicated targets previously covered by Discussion #864. Each finding below was cross-posted to its target PR and is backed by executed evidence with an explicit verification boundary.
 
 | PR | Reviewed commit | Decision | Unique finding | Permanent target comment |
 |---|---|---|---|---|
